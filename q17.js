@@ -1,0 +1,11 @@
+let name1=Symbol.for("Siri")
+let name2=Symbol.for("Siri")
+console.log('symbol:')
+console.log(name1.description===name2.description)
+console.log(name1===name2)
+
+let n1=Symbol("Siri")
+let n2=Symbol("Siri")
+console.log('symbol.for():')
+console.log(n1.description===n2.description)
+console.log(n1===n2)
